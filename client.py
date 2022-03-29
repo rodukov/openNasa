@@ -41,7 +41,7 @@ _logos = [""""
 _history = []
 print(choice(_logos))
 nasa = Scrape(api_key=client_args.key)
-if client_args.build != True:
+if client_args.build:
     nasa.build(start=True)
 for i in range(int(client_args.count)):
     request_data = []
@@ -55,11 +55,11 @@ for i in range(int(client_args.count)):
     output = nasa.request(year=str(request_data[0]), month=str(request_data[1]), day=str(request_data[2]))
     if output not in _history:
         _history.append(output)
-        if client_args.build != True:
+        if client_args.build:
             nasa.build(output)
             print(1)
         else:
             print(output)
 else:
-    if client_args.build != True:
+    if client_args.build:
         nasa.build(end=True)
