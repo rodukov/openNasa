@@ -57,7 +57,7 @@ for i in range(int(client_args.count)):
         _history.append(output)
         if client_args.build:
             nasa.build(output)
-            print(1)
+            print('[  openNasa  ] Successfully added an article to the html page')
         else:
             print(output)
 else:
