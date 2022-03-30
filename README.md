@@ -14,6 +14,9 @@ This software can parse pictures from the Nasa server<br><br>
 🔺 The results will not be repeated, thanks to the `_history` variable;<br>
 🔺 I will add client customization soon...<br>
 
+## Screenshot
+<img align="center" alt="Preview" src="./preview/screenshot1.png"/>
+
 ## Install program
 👨‍💻 You can use a one-line code installation
 ```bash
