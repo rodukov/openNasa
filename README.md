@@ -4,9 +4,9 @@ This software can parse pictures from the Nasa server<br><br>
 
 🔻 Register an API key(recommended): https://api.nasa.gov/index.html#signUp<br>
 ## You can use this API Key's:
-`gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod`<br> `GjGlCo3HVL0i9F3cLTl5Ma66CIaP8ct1evHONPxd`
-`IQz7ccI0XW3JvWqgmq6X3XbzhcDF1kMqvt88ohei`<br> `NKJJg9fSLANIDTelc1IwuYjgoySmgehHH73ByzIQ`
-`j7R3c4rmgeeW8fo9Ol08rLXtmE3G7tkJE6XlwmgC`<br> `Q0kTGij4zDfhFtEGuhY9oOPtBqWyGx7s2Me7bf8l`
+`gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod` `GjGlCo3HVL0i9F3cLTl5Ma66CIaP8ct1evHONPxd` <br>
+`IQz7ccI0XW3JvWqgmq6X3XbzhcDF1kMqvt88ohei` `NKJJg9fSLANIDTelc1IwuYjgoySmgehHH73ByzIQ` <br>
+`j7R3c4rmgeeW8fo9Ol08rLXtmE3G7tkJE6XlwmgC` `Q0kTGij4zDfhFtEGuhY9oOPtBqWyGx7s2Me7bf8l` <br>
 
 ## About program
 🔺 This program receives the user's settings, then, based on them, makes requests to NASA API, can form an html page if the user wants this, or just display the results in the terminal;<br>
