@@ -21,7 +21,7 @@ git clone https://github.com/rodukov/openNasa && cd openNasa
 ```
 
 ## Using the program
-To understand how to use the program, you need to write the --help flag
+ℹ️ To understand how to use the program, you need to write the --help flag
 ```bash
 $ python3 client.py --help
 usage: client.py [-h] [-k KEY] [-b BUILD] [-y YEAR] [-m MONTH] [-d DAY]
@@ -48,15 +48,15 @@ optional arguments:
 ```
 
 ## Examples of use
-This example will create an html page with 30 articles and random dates
+📌 This example will create an html page with 30 articles and random dates
 ```bash
 python3 client.py --key gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod --build True --year random --month random --day random --count 30
 ```
-The example will also build an html page, but will only highlight articles from 2020. Number of articles 25
+📌 The example will also build an html page, but will only highlight articles from 2020. Number of articles 25
 ```bash
 python3 client.py --key gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod --build True --year 2020 --month random --day random --count 25
 ```
-This example will not build an html page, but will display the results in the terminal. Dates are random. Number of results 35
+📌 This example will not build an html page, but will display the results in the terminal. Dates are random. Number of results 35
 ```bash
 python3 client.py --key gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod --build False --year random --month random --day random --count 35
 ```
