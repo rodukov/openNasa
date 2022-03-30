@@ -1,5 +1,5 @@
 # openNasa
-<img align="right" alt="Preview" src="./preview/logo.png"/>
+
 This software can parse pictures from the Nasa server<br>
 <br>
 🔻 Register an API key(recommended): https://api.nasa.gov/index.html#signUp<br>
