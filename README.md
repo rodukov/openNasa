@@ -15,7 +15,7 @@ This software can parse pictures from the Nasa server<br><br>
 🔺 I will add client customization soon...<br>
 
 ## Install program
-You can use a one-line code installation
+👨‍💻 You can use a one-line code installation
 ```bash
 git clone https://github.com/rodukov/openNasa && cd openNasa
 ```
