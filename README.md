@@ -9,10 +9,10 @@ This software can parse pictures from the Nasa server<br><br>
 `j7R3c4rmgeeW8fo9Ol08rLXtmE3G7tkJE6XlwmgC`<br>
 
 ## About program
-🔺 This program receives the user's settings, then, based on them, makes requests to NASA API, can form an html page if the user wants this, or just display the results in the terminal;
-🔺 The code of the program is readable for the average user, I tried to write it competently, I signed the important points;
-🔺 The results will not be repeated, thanks to the `_history` variable
-🔺 I will add client customization soon...
+🔺 This program receives the user's settings, then, based on them, makes requests to NASA API, can form an html page if the user wants this, or just display the results in the terminal;<br>
+🔺 The code of the program is readable for the average user, I tried to write it competently, I signed the important points;<br>
+🔺 The results will not be repeated, thanks to the `_history` variable;<br>
+🔺 I will add client customization soon...<br>
 
 ## Install program
 You can use a one-line code installation
