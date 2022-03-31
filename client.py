@@ -3,7 +3,8 @@ from argparse import ArgumentParser
 from datetime import datetime
 from random import randint, choice
 from modules.nasa_scrape import Scrape
-from modules.config import _logos
+from modules import config
+from time import sleep
 
 
 """Getting user arguments"""
@@ -17,7 +18,18 @@ parser.add_argument('-c', '--count', help="Enter the number of articles, for exa
 client_args = parser.parse_args()
 
 _history = [] # stores all requests
-print(choice(_logos)) # outputs a random logo from the config file
+print(choice(config._logos)) # outputs a random logo from the config file
+
+print(config._neutral_c + "Author:" + config._reset_c, config._author_a)
+print(config._neutral_c + "openNasa repository pages:" + config._reset_c)
+for _item in config._link_to_openNasa_repository_a.items():
+    print(config._main_indent+f"{_item[0]}: {_item[1]}")
+print(config._neutral_c + "Author's Social Media:" + config._reset_c)
+for _item in config._link_to_social_media_a.items():
+    print(config._main_indent+f"{_item[0]}: {_item[1]}")
+else:
+    print("\n")
+    sleep(config._sleep_time_after_starting_program)
 
 def client(nasa) -> None:
     if loads(client_args.build.lower()):
@@ -37,7 +49,7 @@ def client(nasa) -> None:
             _history.append(output)
             if loads(client_args.build.lower()):
                 nasa.build(output) # add an article to an html page
-                print('[  openNasa  ] Successfully added an article to the html page')
+                print(config._successfully_d)
             else:
                 print(output)
     else:
