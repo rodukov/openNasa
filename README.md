@@ -9,12 +9,6 @@
     <a>
       <img alt="Windows" src="https://img.shields.io/badge/Windows-%23.svg?style=flat-square&logo=windows&color=0078D6&logoColor=white" />
     </a>
-    <a href="https://github.com/rodukov/openNasa/commits">
-      <img src="https://badgen.net/github/commits/rodukov/openNasa" alt="Commit number" />
-    </a>
-    <a href="https://github.com/rodukov/openNasa/network">
-      <img alt="Forks" src="https://badgen.net/github/forks/rodukov/openNasa">
-    </a>
     <a href="https://github.com/rodukov/openNasa/stargazers">
       <img alt="Stars" src="https://badgen.net/github/stars/rodukov/openNasa">
     </a>
@@ -30,7 +24,7 @@
 </p>
 </div>
 
-# openNasa <img src="https://img.shields.io/badge/open-source-green">
+# openNasa
 <img align="right" alt="Preview" src="./preview/logo.png"/>
 This software can parse pictures from the Nasa server><br><br>
 
