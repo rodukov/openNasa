@@ -1,4 +1,3 @@
-  GNU nano 4.8                                                                README.md                                                                         
 <div align="center">
 <p>
     <a>
@@ -30,6 +29,7 @@
     </a>
 </p>
 </div>
+
 # openNasa <img src="https://img.shields.io/badge/open-source-green">
 <img align="right" alt="Preview" src="./preview/logo.png"/>
 This software can parse pictures from the Nasa server><br><br>
