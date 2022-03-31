@@ -12,7 +12,7 @@ This software can parse pictures from the Nasa server<br><br>
 🔺 This program receives the user's settings, then, based on them, makes requests to NASA API, can form an html page if the user wants this, or just display the results in the terminal;<br>
 🔺 The code of the program is readable for the average user, I tried to write it competently, I signed the important points;<br>
 🔺 The results will not be repeated, thanks to the `_history` variable;<br>
-🔺 Now there is customization of the program. To do this, edit the modules/config.py file to your liking;<br>
+🔺 Now there is customization of the program. To do this, edit the `modules/config.py` file to your liking;<br>
 🔺 If the project gets 10 stars, I will move the code to Vue.js<br>
 
 ## Screenshot
