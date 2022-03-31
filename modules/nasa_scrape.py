@@ -6,13 +6,16 @@ from random import randint, choice
 
 class Scrape:
     def __init__(self, api_key:str) -> None:
+        "Initialization of a class"
         self.api_key = api_key
         self.time = round(time(),0)
     def request(self, year:str, month:str, day:str) -> dict:
+        """Request to NASA servers"""
         linksrc = f"https://api.nasa.gov/planetary/apod?date={year}-{month}-{day}&hd=True&api_key={self.api_key}"
         data = loads(get(linksrc).text)
         return data
     def build(self, data:dict={}, start:bool=False, end:bool=False) -> bool:
+        """This function builds an HTML page based on the server response"""
         CHOICE = [["45A6C1", "46C2A3"], ["4671C2", "8246C2"], ["C24646", "FFA630"]]
         COLOR = choice(CHOICE)
 

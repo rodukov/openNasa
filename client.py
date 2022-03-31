@@ -20,6 +20,7 @@ client_args = parser.parse_args()
 _history = [] # stores all requests
 print(choice(config._logos)) # outputs a random logo from the config file
 
+"""You can edit modules/config.py"""
 print(config._neutral_c + "Author:" + config._reset_c, config._author_a)
 print(config._neutral_c + "openNasa repository pages:" + config._reset_c)
 for _item in config._link_to_openNasa_repository_a.items():
@@ -29,11 +30,12 @@ for _item in config._link_to_social_media_a.items():
     print(config._main_indent+f"{_item[0]}: {_item[1]}")
 else:
     print("\n")
-    sleep(config._sleep_time_after_starting_program)
+    sleep(config._sleep_time_after_starting_program) # Resting while the user looks at the welcome screen
 
 def client(nasa) -> None:
     if loads(client_args.build.lower()):
         nasa.build(start=True) # builds the header of the html page
+        print(config._successfully_build_header_d)
     for i in range(int(client_args.count)):
         request_data = [] # this list will generate a request for NASA API
 
@@ -52,9 +54,11 @@ def client(nasa) -> None:
                 print(config._successfully_d)
             else:
                 print(output)
+                print(config._fence)
     else:
         if loads(client_args.build.lower()):
             nasa.build(end=True) # will finish the html page
+            print(config._successfully_build_d)
 
 if __name__ == "__main__":
     nasa = Scrape(api_key=client_args.key)
