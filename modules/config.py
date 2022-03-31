@@ -28,10 +28,10 @@ _neutral_c = "\x1b[34m" + "\x1b[1m"  # Green + Bright
 _reset_c = "\x1b[0m"  # reset to default
 
 """Messages to display"""
-_openNasa_d = "[  openNasa  ]"
-_successfully_d = _openNasa_d + "Successfully added an article to the HTML page"
-_successfully_build_header_d = _openNasa_d + "Added HTML page header"
-_successfully_build_d = _openNasa_d + "HTML page completed"
+_openNasa_d = _successfully_c + "[  openNasa  ]" + _reset_c
+_successfully_d = _openNasa_d + " Successfully added an article to the HTML page"
+_successfully_build_header_d = _openNasa_d + " Added HTML page header"
+_successfully_build_d = _openNasa_d + " HTML page completed"
 
 """About the software"""
 _author_a = "Gleb Rodukov"
