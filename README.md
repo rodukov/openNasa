@@ -1,3 +1,35 @@
+  GNU nano 4.8                                                                README.md                                                                         
+<div align="center">
+<p>
+    <a>
+      <img alt="Linux" src="https://img.shields.io/badge/Linux-%23.svg?style=flat-square&logo=linux&color=FCC624&logoColor=black" />
+    </a>
+    <a>
+      <img alt="macOS" src="https://img.shields.io/badge/macOS-%23.svg?style=flat-square&logo=apple&color=000000&logoColor=white" />
+    </a>
+    <a>
+      <img alt="Windows" src="https://img.shields.io/badge/Windows-%23.svg?style=flat-square&logo=windows&color=0078D6&logoColor=white" />
+    </a>
+    <a href="https://github.com/rodukov/openNasa/commits">
+      <img src="https://badgen.net/github/commits/rodukov/openNasa" alt="Commit number" />
+    </a>
+    <a href="https://github.com/rodukov/openNasa/network">
+      <img alt="Forks" src="https://badgen.net/github/forks/rodukov/openNasa">
+    </a>
+    <a href="https://github.com/rodukov/openNasa/stargazers">
+      <img alt="Stars" src="https://badgen.net/github/stars/rodukov/openNasa">
+    </a>
+    <a href="https://github.com/rodukov/openNasa/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/rodukov/openNasa" />
+    </a>
+    <a href="https://github.com/rodukov/openNasa/search?l=python">
+      <img src="https://img.shields.io/github/languages/top/rodukov/openNasa" alt="Top languages"/>
+    </a>
+    <a href="https://github.com/rodukov/openNasa/blob/master/LICENSE">
+      <img src="https://img.shields.io/github/license/rodukov/openNasa?style=flat-square&logo=GNU&label=License" alt="License"/>
+    </a>
+</p>
+</div>
 # openNasa <img src="https://img.shields.io/badge/open-source-green">
 <img align="right" alt="Preview" src="./preview/logo.png"/>
 This software can parse pictures from the Nasa server><br><br>
