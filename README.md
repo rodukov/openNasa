@@ -24,6 +24,8 @@
 </p>
 </div>
 
+<p style="text-align: center;"><img src="photo_2022-07-15_23-00-30.jpg"></p>
+
 # openNasa
 <img align="right" alt="Preview" src="./preview/logo.png"/>
 This software can parse pictures from the Nasa server<br><br>
