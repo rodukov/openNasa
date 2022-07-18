@@ -92,4 +92,6 @@ python3 client.py --key gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod --build True --
 ```bash
 python3 client.py --key gyxu6CjGjk6emd5lHPwTAuHk7d1mDW2z0UpAKqod --build False --year random --month random --day random --count 35
 ```
+## openNasa API
+You can build your own appliaction with openNasa api. Just import `modules/nasa_scrape.py`
 
