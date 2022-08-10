@@ -53,7 +53,7 @@ git clone https://github.com/rodukov/openNasa && cd openNasa
 ```
 
 ## Using the program
-ℹ️ To understand how to use the program, you need to write the --help flag
+ℹ️ To understand how to use the program, you need to write the `--help` flag
 ```bash
 $ python3 client.py --help
 usage: client.py [-h] [-k KEY] [-b BUILD] [-y YEAR] [-m MONTH] [-d DAY]
