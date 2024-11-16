@@ -36,7 +36,7 @@ _successfully_build_d = _openNasa_d + " HTML page completed"
 """About the software"""
 _author_a = "Gleb Rodukov"
 _link_to_openNasa_repository_a = {"Github": "https://github.com/rodukov/openNasa/"}
-_link_to_social_media_a = {"Github": "https://github.com/rodukov/", "Telegram": "https://t.me/sata30/"}
+_link_to_social_media_a = {"Github": "https://github.com/rodukov/", "Telegram": "-"}
 
 """Other configuration"""
 _fence = "-" * 35
